@@ -1,0 +1,27 @@
+{
+  "name": "samito-next-theme-vscode",
+  "displayName": "samito-next-theme-vscode",
+  "description": "samito-next-theme-vscode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "samito-next-theme-vscode",
+        "uiTheme": "vs-dark",
+        "path": "./themes/samito-next-theme-vscode-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icons/nextjs-icon.png",
+  "repository": {
+    "url": "https://github.com/SamitoX4/samito-nest-theme-vscode.git",
+    "type": "git"
+  },
+  "publisher": "samito-themes"
+}
